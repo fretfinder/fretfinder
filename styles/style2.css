@@ -1,0 +1,191 @@
+body {
+    background-color: #1b1b1b;
+    font-family: 'Raleway', sans-serif;
+}
+main {
+    margin: 0 200px 0px 200px;
+    padding: 0 50px 0 50px;
+    background-color: #0f0f0f;
+    color: white;
+}
+main a{
+    text-decoration: none;
+    color:rgb(87, 87, 87)
+}
+main a:hover{
+    text-decoration: none;
+    color:white;
+}
+.heading{
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    font-size: 80px;
+}
+.fretboard{
+    background-image: url(fretboard.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height:auto;
+    max-height:435px;
+    resize: both;
+    margin:0 auto!important;
+}
+.active{
+    background-color: rgb(255, 255, 255)!important;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.219);
+    width:250px;
+    outline: white 1px solid;
+    transition: 250ms;
+}
+.container:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+.row{
+    margin:1em 4em 0em 4em;
+}
+.heading2{
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+hr {
+    margin: 20px 0;
+    width:100%;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid white;
+}
+main p{
+    font-size: 22px;
+}
+main ul{
+    font-size: 29px;
+    margin-top:40px;
+}
+main li{
+    font-size: 25px;
+}
+.fret {
+    width:45%;
+    height:3.9rem;
+    background-color: #f883838e;
+    border-radius: 100px / 50px;
+    margin-bottom:5%;
+    margin-right:20px;
+    transition: 250ms;
+}
+.fret:hover{
+    cursor: pointer;
+    background-color: #f88383;
+
+}
+#lf2{
+    margin: 0 auto;
+    margin-left:90px;
+}
+footer{
+    background-color: black;
+    height:135px;
+    align-items:flex-end;
+    position:relative;
+}
+.ft-text{
+    color:rgb(206, 206, 206);
+    position:absolute;
+    bottom: 0;
+    right:22px;
+    font-size:22px;
+}
+@media (max-width: 1800px) {
+
+    [class*="fret"] {
+      height: 2.95vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+  }
+  @media (max-width: 1900px) {
+    
+    [class*="fret"] {
+      height: 3.19vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+  }
+@media (max-width: 1700px) {
+    
+    [class*="fret"] {
+      height: 3.05vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+  }
+  @media (max-width: 1550px) {
+    
+    [class*="fret"] {
+      height: 2.95vw;
+    }
+    [class*="row"] {
+        margin:0;
+      }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+      
+  }
+  @media (max-width: 1450px) {
+    
+    [class*="fret"] {
+      height: 2.85vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+  }
+  @media (max-width: 1400px) {
+    
+    [class*="fret"] {
+      height: 2.75vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+      [id*="lf2"] {
+        margin-left:45px!important;
+      }
+      
+
+  }
+  @media (max-width: 1255px) {
+    
+    [class*="fret"] {
+      height: 2.58vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+  }
+  @media (max-width: 1366px) {
+    
+    [class*="row"] {
+      flex-wrap: nowrap;
+    }
+
+  }
+  @media (max-width: 1300px) {
+    [class*="fret"] {
+      height: 2.98vw;
+    }
+    [class*="fretboard"] {
+        height: 100%;
+      }
+      main {margin: 0px 150px 0px 150px}
+  }

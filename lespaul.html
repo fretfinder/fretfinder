@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style2.css">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); </style>
+  <link rel="shortcut icon" href="img/text-1672171914063.png" type="image/x-icon">
+  <title>FretFinder</title>
+</head>
+<body>
+  <main>
+    <a style = "font-size:25px;"href = "index.html"><---- Вернуться назад</a>
+    <div class = "heading">GIBSON CHERRY LES PAUL</div>
+    <img width = 90% id ="mainimg" style = "display: block;margin: 0 auto;margin-bottom:45px;"src ="img/gibsonleft.png">
+    <div class = "row">
+      <div class = "col"><div id = "img1"class = "container active"><img style = "margin: 0px 0px 0px 15px; " width = "200px" src = "img/gibsonleft.png"></div></div>
+      <div class = "col"><div id = "img2"class = "container"><img style = "margin: 5px 0px 0px 10px; " width = "200px" src = "img/backgibson.png"></div></div>
+      <div class = "col"><div id = "img3"class = "container"><img style = "margin: 25px 0px 26px 0px; " width = "220px" src = "img/rotategibson.png"></div></div>
+    </div>
+    <hr>
+    <p>GIBSON CHERRY LES PAUL – обновленная версия Les Paul Classic, в конструкции которой используются традиционные материалы премиального качества: корпус из красного дерева с топом из клена, гриф из красного дерева с накладкой из палисандра. Характерная особенность этой модели – хамбакеры зебра 61R и 61T, которые в сочетании с двумя регуляторами громкости и двумя регуляторами тембра Push-Pull обеспечивают широкие возможности в настройке звучания. По своему удобству при игре, дизайну в стиле начала шестидесятых и акустическим характеристикам это безошибочно узнаваемый классический Лес Пол, который можно увидеть в руках множества знаменитых музыкантов. Линейка 2019 года представлена в нескольких вариантах цветового исполнения. Предлагаемая модель – элегантного цвета вишневый санбёрст. В комплекте с инструментом поставляется фирменный жесткий кейс.
+      
+     
+      
+      
+    <ul>Комплектация включает в себя:</ul>
+      <li>Уровень ладов, заводная головка и полировка</li>
+      <li>Обработка грифа, комфортная для игры</li>
+      <li>Регулировка и установка анкерного стержня.      </li>
+      <li>Регулировка высоты действия, радиуса, интонации и высоты звукоснимателя.</li>
+      <li>Регулировка паза гайки.</li>
+    </p>
+    <div class = "heading2">Пример звука на виртуальном грифе гитары</div> 
+    <div class = "fretboard">
+      <div class ="row" id = "lf2">
+        <div class = "col"><div id = "f11"class = "fret"></div><div id = "f12" class = "fret"></div><div id = "f13"class = "fret"></div><div id = "f14"class = "fret"></div><div id = "f15"class = "fret"></div><div id = "f16"class = "fret"></div></div>
+        <div class = "col"><div id = "f21"class = "fret"></div><div id = "f22" class = "fret"></div><div id = "f23"class = "fret"></div><div id = "f24"class = "fret"></div><div id = "f25"class = "fret"></div><div id = "f26"class = "fret"></div></div>
+        <div style = "left:0.5rem;"class = "col"><div id = "f31" class = "fret"></div><div id = "f32"class = "fret"></div><div id = "f33"class = "fret"></div><div id = "f34"class = "fret"></div><div id = "f35"class = "fret"></div><div id = "f36"class = "fret"></div></div>
+        <div style = "left:1rem;"class = "col"><div id = "f41" class = "fret"></div><div id = "f42"class = "fret"></div><div id = "f43"class = "fret"></div><div id = "f44"class = "fret"></div><div id = "f45"class = "fret"></div><div id = "f46"class = "fret"></div></div>
+        <div style = "left:1.3rem;"class = "col"><div id = "f51" class = "fret"></div><div id = "f52"class = "fret"></div><div id = "f53"class = "fret"></div><div id = "f54"class = "fret"></div><div id = "f55"class = "fret"></div><div id = "f56"class = "fret"></div></div>
+      </div> <!--51, '5' == лад   '1' == струна-->
+    </div><br><br>
+  </main>
+  <footer>
+    <div class = "ft-text">Иван Хотулев 10б  (Школа 1466) FretFinder 2023</div>
+  </footer>
+  <script defer>
+    let img1 = document.querySelector('#img1');
+    let img2 = document.querySelector('#img2');
+    let img3 = document.querySelector('#img3');
+    let mainimg = document.querySelector(`#mainimg`);
+    let f11 = document.querySelector(`#f11`);
+    let f12 = document.querySelector(`#f12`);
+    let f13 = document.querySelector(`#f13`);
+    let f14 = document.querySelector(`#f14`);
+    let f15 = document.querySelector(`#f15`);
+    let f16 = document.querySelector(`#f16`);
+    let f21 = document.querySelector(`#f21`);
+    let f22 = document.querySelector(`#f22`);
+    let f23 = document.querySelector(`#f23`);
+    let f24 = document.querySelector(`#f24`);
+    let f25 = document.querySelector(`#f25`);
+    let f26 = document.querySelector(`#f26`);
+    let f31 = document.querySelector(`#f31`);
+    let f32 = document.querySelector(`#f32`);
+    let f33 = document.querySelector(`#f33`);
+    let f34 = document.querySelector(`#f34`);
+    let f35 = document.querySelector(`#f35`);
+    let f36 = document.querySelector(`#f36`);
+    let f41 = document.querySelector(`#f41`);
+    let f42 = document.querySelector(`#f42`);
+    let f43 = document.querySelector(`#f43`);
+    let f44 = document.querySelector(`#f44`);
+    let f45 = document.querySelector(`#f45`);
+    let f46 = document.querySelector(`#f46`);
+    let f51 = document.querySelector(`#f51`);
+    let f52 = document.querySelector(`#f52`);
+    let f53 = document.querySelector(`#f53`);
+    let f54 = document.querySelector(`#f54`);
+    let f55 = document.querySelector(`#f55`);
+    let f56 = document.querySelector(`#f56`);
+
+    
+    let sf11 = new Audio(`sounds/f11.mp3`);
+    let sf12 = new Audio(`sounds/f12.mp3`);
+    let sf13 = new Audio(`sounds/f13.mp3`);
+    let sf14 = new Audio(`sounds/f14.mp3`);
+    let sf15 = new Audio(`sounds/f15.mp3`);
+    let sf16 = new Audio(`sounds/f16.mp3`);
+    let sf21 = new Audio(`sounds/f21.mp3`);
+    let sf22 = new Audio(`sounds/f22.mp3`);
+    let sf23 = new Audio(`sounds/f23.mp3`);
+    let sf24 = new Audio(`sounds/f24.mp3`);
+    let sf25 = new Audio(`sounds/f25.mp3`);
+    let sf26 = new Audio(`sounds/f26.mp3`);
+    let sf31 = new Audio(`sounds/f31.mp3`);
+    let sf32 = new Audio(`sounds/f32.mp3`);
+    let sf33 = new Audio(`sounds/f33.mp3`);
+    let sf34 = new Audio(`sounds/f34.mp3`);
+    let sf35 = new Audio(`sounds/f35.mp3`);
+    let sf36 = new Audio(`sounds/f36.mp3`);
+    let sf41 = new Audio(`sounds/f41.mp3`);
+    let sf42 = new Audio(`sounds/f42.mp3`);
+    let sf43 = new Audio(`sounds/f43.mp3`);
+    let sf44 = new Audio(`sounds/f44.mp3`);
+    let sf45 = new Audio(`sounds/f45.mp3`);
+    let sf46 = new Audio(`sounds/f46.mp3`);
+    let sf51 = new Audio(`sounds/f51.mp3`);
+    let sf52 = new Audio(`sounds/f52.mp3`);
+    let sf53 = new Audio(`sounds/f53.mp3`);
+    let sf54 = new Audio(`sounds/f54.mp3`);
+    let sf55 = new Audio(`sounds/f55.mp3`);
+    let sf56 = new Audio(`sounds/f56.mp3`);
+
+    f11.addEventListener(`click`,function(){
+      sf11.volume = 0.4;
+      sf11.play();
+    })
+    f12.addEventListener(`click`,function(){
+      sf12.volume = 0.4;
+      sf12.play();
+    })
+    f13.addEventListener(`click`,function(){
+      sf13.volume = 0.4;
+      sf13.play();
+    })
+    f14.addEventListener(`click`,function(){
+      sf14.volume = 0.4;
+      sf14.play();
+    })
+    f15.addEventListener(`click`,function(){
+      sf15.volume = 0.4;
+      sf15.play();
+    })
+    f16.addEventListener(`click`,function(){
+      sf16.volume = 0.4;
+      sf16.play();
+    })
+    f21.addEventListener(`click`,function(){
+      sf21.volume = 0.4;
+      sf21.play();
+    })
+    f22.addEventListener(`click`,function(){
+      sf22.volume = 0.4;
+      sf22.play();
+    })
+    f23.addEventListener(`click`,function(){
+      sf23.volume = 0.4;
+      sf23.play();
+    })
+    f24.addEventListener(`click`,function(){
+      sf24.volume = 0.4;
+      sf24.play();
+    })
+    f25.addEventListener(`click`,function(){
+      sf25.volume = 0.4;
+      sf25.play();
+    })
+    f26.addEventListener(`click`,function(){
+      sf26.volume = 0.4;
+      sf26.play();
+    })
+    f31.addEventListener(`click`,function(){
+      sf31.volume = 0.4;
+      sf31.play();
+    })
+    f32.addEventListener(`click`,function(){
+      sf32.volume = 0.4;
+      sf32.play();
+    })
+    f33.addEventListener(`click`,function(){
+      sf33.volume = 0.4;
+      sf33.play();
+    })
+    f34.addEventListener(`click`,function(){
+      sf34.volume = 0.4;
+      sf34.play();
+    })
+    f35.addEventListener(`click`,function(){
+      sf35.volume = 0.4;
+      sf35.play();
+    })
+    f36.addEventListener(`click`,function(){
+      sf36.volume = 0.4;
+      sf36.play();
+    })
+    f41.addEventListener(`click`,function(){
+      sf41.volume = 0.4;
+      sf41.play();
+    })
+    f42.addEventListener(`click`,function(){
+      sf42.volume = 0.4;
+      sf42.play();
+    })
+    f43.addEventListener(`click`,function(){
+      sf43.volume = 0.4;
+      sf43.play();
+    })
+    f44.addEventListener(`click`,function(){
+      sf44.volume = 0.4;
+      sf44.play();
+    })
+    f45.addEventListener(`click`,function(){
+      sf45.volume = 0.4;
+      sf45.play();
+    })
+    f46.addEventListener(`click`,function(){
+      sf46.volume = 0.4;
+      sf46.play();
+    })
+    f51.addEventListener(`click`,function(){
+      sf51.volume = 0.4;
+      sf51.play();
+    })
+    f52.addEventListener(`click`,function(){
+      sf52.volume = 0.4;
+      sf52.play();
+    })
+    f53.addEventListener(`click`,function(){
+      sf53.volume = 0.4;
+      sf53.play();
+    })
+    f54.addEventListener(`click`,function(){
+      sf54.volume = 0.4;
+      sf54.play();
+    })
+    f55.addEventListener(`click`,function(){
+      sf55.volume = 0.4;
+      sf55.play();
+    })
+    f56.addEventListener(`click`,function(){
+      sf56.volume = 0.4;
+      sf56.play();
+    })
+    
+
+
+
+
+
+
+
+
+    img1.addEventListener(`click`,function(){
+      mainimg.src = `img/gibsonleft.png`
+      mainimg.style.width = '90%';
+      mainimg.style.marginBottom = '45px';
+      mainimg.style.marginTop = '0px';
+      img1.classList.add(`active`);
+      img2.classList.remove(`active`);
+      img3.classList.remove(`active`);
+    })
+    img2.addEventListener(`click`,function(){
+      mainimg.src = `img/backgibson.png`
+      mainimg.style.width = '90%';
+      mainimg.style.marginBottom = '114px';
+      mainimg.style.marginTop = '0px';
+      img1.classList.remove(`active`);
+      img2.classList.add(`active`);
+      img3.classList.remove(`active`);
+    })
+    img3.addEventListener(`click`,function(){
+      mainimg.src = `img/rotategibson.png`
+      mainimg.style.width = '80%';
+      mainimg.style.marginTop = '235px';
+      mainimg.style.marginBottom = '235px';
+      img1.classList.remove(`active`);
+      img2.classList.remove(`active`);
+      img3.classList.add(`active`);
+    })
+
+  </script>
+</body>
+</html>
