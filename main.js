@@ -178,16 +178,16 @@ fender.addEventListener(`click`, function(){
   count.innerHTML = num;
   container.innerHTML = `             <div class="row">
                                       <div class="col-4">
-                                        <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "width: 100%; height: 85%"><div class = "card-text">FENDER VST SERIES</div></div></a>
-                                        <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
+                                        <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "width: 100%; height: 600px"><div class = "card-text">FENDER VST SERIES</div></div></a>
+                                        <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
                                       </div>
                                       <div class="col-4">
-                                        <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 85%"><div class = "card-text">FENDER VLP SERIES</div></div></a>
-                                        <a href = "hellokitty.html"><div class="card"><img src = "img/kitty.png" style = "width: 90%; height: 85%;margin: 0 auto; padding-top:15px;"><div class = "card-text">FENDER SQ HELLO KITTY</div></div></a>
+                                        <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 600px"><div class = "card-text">FENDER VLP SERIES</div></div></a>
+                                        <a href = "hellokitty.html"><div class="card"><img src = "img/kitty.png" style = "width: 90%; height: 600px;margin: 0 auto; padding-top:15px;"><div class = "card-text">FENDER SQ HELLO KITTY</div></div></a>
 
                                       </div>
                                       <div class="col-4">
-                                        <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
+                                        <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
         `
 })
 gibson.addEventListener(`click`, function(){
@@ -195,16 +195,16 @@ gibson.addEventListener(`click`, function(){
   count.innerHTML = num;
   container.innerHTML = `             <div class="row">
                                       <div class="col-4">
-                                      <a href = "V.html"><div class="card"><img src = "img/v.png" style = "width: 100%; height: 90%; padding-top:0px;"><div class = "card-text">GIBSON FLYING V</div></div></a>
+                                      <a href = "V.html"><div class="card"><img src = "img/v.png" style = "width: 100%; height: 600px; padding-top:0px;"><div class = "card-text">GIBSON FLYING V</div></div></a>
 
-                                      <a href = "explorer.html"><div class="card"><img src = "img/explorer.png" style = "width: 100%; height: 85%"><div class = "card-text">GIBSON EXPLORER</div></div></a>
+                                      <a href = "explorer.html"><div class="card"><img src = "img/explorer.png" style = "width: 100%; height: 600px"><div class = "card-text">GIBSON EXPLORER</div></div></a>
 
                                       </div>
                                       <div class="col-4">
-                                      <a href = "lespaul.html"><div class="card"><img src = "img/gibson.png" style = "width: 100%; height: 85%"><div class = "card-text">GIBSON CHERRY LES PAUL</div></div></a>
+                                      <a href = "lespaul.html"><div class="card"><img src = "img/gibson.png" style = "width: 100%; height: 600px"><div class = "card-text">GIBSON CHERRY LES PAUL</div></div></a>
                                       </div>
                                       <div class="col-4">
-                                      <a href = "SG.html"><div class="card"><img src = "img/sg.png" style = "width: 100%; height: 85%;"><div class = "card-text">GIBSON SG DOUBLE-NECK</div></div></a>
+                                      <a href = "SG.html"><div class="card"><img src = "img/sg.png" style = "width: 100%; height: 600px;"><div class = "card-text">GIBSON SG DOUBLE-NECK</div></div></a>
                                       </div>
         `
 })
@@ -213,13 +213,13 @@ esp.addEventListener(`click`, function(){
   count.innerHTML = num;
   container.innerHTML = `             <div class="row">
                                       <div class="col-4">
-                                      <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 85%"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
+                                      <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 600px"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
                                       </div>
                                       <div class="col-4">
-                                      <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 85%"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
+                                      <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 600px"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
                                       </div>
                                       <div class="col-4">
-                                      <a href = "blast.html"><div class="card"><img src = "img/blast.png" style = "padding-top: 10px;width: 100%; height: 85%"><div class = "card-text">ESP PURPLE BLAST</div></div></a>
+                                      <a href = "blast.html"><div class="card"><img src = "img/blast.png" style = "padding-top: 10px;width: 100%; height: 600px"><div class = "card-text">ESP PURPLE BLAST</div></div></a>
 
         `
 })
@@ -228,16 +228,16 @@ all.addEventListener(`click`, function(){
   count.innerHTML = num;
   container.innerHTML = `                         <div class="row">
   <div class="col-4">
-    <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "margin:0 auto;width: 100%; height: 85%"><div class = "card-text">FENDER VST SERIES</div></div></a>
-    <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 85%"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
+    <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "margin:0 auto;width: 100%;height: 600px"><div class = "card-text">FENDER VST SERIES</div></div></a>
+    <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 600px"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
   </div>
   <div class="col-4">
-    <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 85%"><div class = "card-text">FENDER VLP SERIES</div></div></a>
-    <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 85%"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
+    <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 600px"><div class = "card-text">FENDER VLP SERIES</div></div></a>
+    <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 600px"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
   </div>
   <div class="col-4">
-    <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
-    <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
+    <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
+    <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
   </div>
 </div>
         `
@@ -251,16 +251,16 @@ right.addEventListener(`click`, function(){
         if (num == 2){
             container.innerHTML = `<div class="row">
             <div class="col-4">
-                    <a href = "V.html"><div class="card"><img src = "img/v.png" style = "width: 100%; height: 90%; padding-top:0px;"><div class = "card-text">GIBSON FLYING V</div></div></a>
-                    <a href = "blast.html"><div class="card"><img src = "img/blast.png" style = "padding-top: 10px;width: 100%; height: 85%"><div class = "card-text">ESP PURPLE BLAST</div></div></a>
+                    <a href = "V.html"><div class="card"><img src = "img/v.png" style = "width: 100%; height: 600px; padding-top:0px;"><div class = "card-text">GIBSON FLYING V</div></div></a>
+                    <a href = "blast.html"><div class="card"><img src = "img/blast.png" style = "padding-top: 10px;width: 100%; height: 600px"><div class = "card-text">ESP PURPLE BLAST</div></div></a>
             </div>
             <div class="col-4">
-            <a href = "lespaul.html"><div class="card"><img src = "img/gibson.png" style = "width: 100%; height: 85%"><div class = "card-text">GIBSON CHERRY LES PAUL</div></div></a>
-            <a href = "explorer.html"><div class="card"><img src = "img/explorer.png" style = "width: 100%; height: 85%"><div class = "card-text">GIBSON EXPLORER</div></div></a>
+            <a href = "lespaul.html"><div class="card"><img src = "img/gibson.png" style = "width: 100%; height: 600px"><div class = "card-text">GIBSON CHERRY LES PAUL</div></div></a>
+            <a href = "explorer.html"><div class="card"><img src = "img/explorer.png" style = "width: 100%; height: 600px"><div class = "card-text">GIBSON EXPLORER</div></div></a>
             </div>
             <div class="col-4">
-            <a href = "SG.html"><div class="card"><img src = "img/sg.png" style = "width: 100%; height: 85%;"><div class = "card-text">GIBSON SG DOUBLE-NECK</div></div></a>
-            <a href = "hellokitty.html"><div class="card"><img src = "img/kitty.png" style = "width: 90%; height: 85%;margin: 0 auto; padding-top:15px;"><div class = "card-text">FENDER SQ HELLO KITTY</div></div></a>
+            <a href = "SG.html"><div class="card"><img src = "img/sg.png" style = "width: 100%; height: 600px;"><div class = "card-text">GIBSON SG DOUBLE-NECK</div></div></a>
+            <a href = "hellokitty.html"><div class="card"><img src = "img/kitty.png" style = "width: 90%; height: 600px;margin: 0 auto; padding-top:15px;"><div class = "card-text">FENDER SQ HELLO KITTY</div></div></a>
                     
             </div>
             </div>
@@ -278,16 +278,16 @@ left.addEventListener(`click`, function(){
     if (num == 1){
         container.innerHTML = `             <div class="row">
         <div class="col-4">
-          <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "margin:0 auto;width: 100%; height: 85%"><div class = "card-text">FENDER VST SERIES</div></div></a>
-          <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 85%"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
+          <a href = "Vintage.html"><div class="card"><img src = "img/image.png" style = "margin:0 auto;width: 100%; height: 600px"><div class = "card-text">FENDER VST SERIES</div></div></a>
+          <a href = "prpl.html"><div class="card"><img src = "img/ouijagtr.png" style = "margin: 0 auto; width: 95%; height: 600px"><div class = "card-text">ESP KH-1 SPARKLE OUIJA</div></div></a>
         </div>
         <div class="col-4">
-          <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 85%"><div class = "card-text">FENDER VLP SERIES</div></div></a>
-          <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 85%"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
+          <a href = "V120.html"><div class="card"><img src = "img/vintagepaul.png" style = "width: 100%; height: 600px"><div class = "card-text">FENDER VLP SERIES</div></div></a>
+          <a href = "redouija.html"><div class="card"><img src = "img/original (1).png" style = "width: 100%; height: 600px"><div class = "card-text">ESP KH-2 SPARKLE OUIJA</div></div></a>
         </div>
         <div class="col-4">
-          <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
-          <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 85%; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
+          <a href = "KC.html"><div class="card"><img src = "img/jaguar.png" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER KC JAGUAR</div></div></a>
+          <a href = "JP.html"><div class="card"><img src = "img/page.jfif" style = "width: 90%; height: 600px; margin: 0 auto; padding-top:10px;"><div class = "card-text">FENDER JP TELECASTER</div></div></a>
         </div>
       </div>
     `
